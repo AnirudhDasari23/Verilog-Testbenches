@@ -1,0 +1,35 @@
+module myand_tb;
+
+wire y,x,z;
+
+reg [1:0]a;
+
+andgat dut (a, x, y, z); initial
+
+日
+
+begin
+
+a[0]=0; a[1]=0;
+
+#100;
+
+a[0]=0; a[1]=1;
+
+#100;
+
+a[0]=1;
+
+a[1]=0;
+
+#100;
+
+a[0]=1;
+
+a[1]=1;
+
+#100;
+
+end
+
+endmodule |
